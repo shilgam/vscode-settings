@@ -1,0 +1,16 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "angular.enable-experimental-ivy-prompt": false,
+} // {
+//   "eslint.validate": [
+//     {
+//       "language": "typescript",
+//       "autoFix": true
+//     },
+//     {
+//       "language": "typescriptreact",
+//       "autoFix": true
+//     }
+//   ],
+//   "eslint.autoFixOnSave": true
+// }
