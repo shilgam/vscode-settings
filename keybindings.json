@@ -47,5 +47,21 @@
   {
     "key": "cmd+shift+2",
     "command": "workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "alt+cmd+\\",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
   }
 ]
