@@ -68,5 +68,21 @@
     "key": "cmd+b",
     "command": "gitlens.toggleFileBlame",
     "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /blameable/"
+  },
+  {
+    "key": "shift+cmd+-",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "shift+cmd+-",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "shift+cmd+=",
+    "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "shift+cmd+=",
+    "command": "-workbench.action.zoomIn"
   }
 ]
