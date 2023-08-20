@@ -1,9 +1,23 @@
 {
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "angular.enable-experimental-ivy-prompt": false,
-    "window.zoomLevel": -1,
-    "editor.formatOnSave": true,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "angular.enable-experimental-ivy-prompt": false,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDragAndDrop": false,
+  "editor.accessibilitySupport": "off",
+  "[markdown]": {
+    "editor.formatOnSave": false
+    // "editor.wordWrap": "on",
+    // "editor.renderWhitespace": "all",
+    // "editor.acceptSuggestionOnEnter": "off"
+  },
+  "eslint.alwaysShowStatus": true,
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "codeium.enableConfig": {
+    "*": true,
+    "plaintext": true
+  }
 }
