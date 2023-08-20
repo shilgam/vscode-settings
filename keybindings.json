@@ -66,6 +66,15 @@
   },
   {
     "key": "cmd+b",
+    "scope": "markdown",
+    "command":"editor.action.insertSnippet",
+    "when":"editorTextFocus && editorLangId == 'markdown'",
+    "args":{
+        "snippet":"**$TM_SELECTED_TEXT**$0"
+    }
+  },
+  {
+    "key": "cmd+b",
     "command": "gitlens.toggleFileBlame",
     "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /blameable/"
   },
