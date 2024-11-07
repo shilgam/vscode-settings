@@ -15,9 +15,12 @@
   },
   "eslint.alwaysShowStatus": true,
   "extensions.ignoreRecommendations": true,
-  "diffEditor.ignoreTrimWhitespace": false,
   "codeium.enableConfig": {
     "*": true,
     "plaintext": true
+  },
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
