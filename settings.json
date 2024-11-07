@@ -22,5 +22,10 @@
   "editor.tabSize": 2,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "aws.telemetry": false,
+  "amazonQ.telemetry": false,
+  "amazonQ.suppressPrompts": {
+    "amazonQSessionConfigurationMessage": true
   }
 }
