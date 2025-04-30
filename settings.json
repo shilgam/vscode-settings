@@ -26,6 +26,10 @@
   "aws.telemetry": false,
   "amazonQ.telemetry": false,
   "amazonQ.suppressPrompts": {
-    "amazonQSessionConfigurationMessage": true
-  }
+    "amazonQSessionConfigurationMessage": true,
+    "codeWhispererConnectionExpired": true
+  },
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.wordWrap": "on"
 }
